@@ -217,13 +217,33 @@
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact & Socials</h2>
-        <a href="mailto:cheesescreativeserver@gmail.com">
-          <span class="btn btn--outline">Email</span>
-        </a>
-        <a href="https://steamcommunity.com/id/tastycheese101">
-          <span class="btn btn--outline">Steam</span>
-        </a>
+        <h2 class="section__title">Contact Me</h2>
+        <div class="container-content">
+          <i>If you want to speak with me, feel free to fill in the form. I will email you back with a response.</i>
+          <div class="content">
+              <form action="https://formspree.io/f/xwkzagze" method="post">
+                  <p>
+                      <label for="contact-name">Your Name</label>
+                      <br> </br>
+                      <input id="contact-name" type="text" name="contact-name"/>
+                  </p>
+                  <p>
+                      <label for="contact-email">Your email address</label>
+                      <br> </br>
+                      <input id="contact-email" type="email" name="contact-email"/> </p>
+                  <p>
+                      <label for="contact-phone">Your phone number</label>
+                      <br> </br>
+                      <input id="contact-phone" type="tel" name="contact-phone"/> </p>
+                  <p>
+                      <label for="contact-message">Your message</label>
+                      <br> </br>
+                      <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                  </p>
+                  <p>
+                      <input type="submit" value="Send my message"/> </p>
+              </form>
+          </div>
       </section>
     </main>
 
