@@ -428,7 +428,7 @@ main {
 
 input {
   border: none;
-  border: 2px solid rgb(182, 175, 221);
+  border: 3px solid rgb(182, 175, 221);
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -438,11 +438,18 @@ input {
 input:hover {
   background-color: lightblue;
   border: 3px solid lightblue;
+  color: black;
+}
+
+textarea:hover {
+  background-color: lightblue;
+  border: 3px solid lightblue;
+  color: black;
 }
 
 textarea {
   border: none;
-  border: 2px solid rgb(182, 175, 221);
+  border: 3px solid rgb(182, 175, 221);
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -450,11 +457,15 @@ textarea {
 }
 
 input:focus { /* https://www.w3schools.com/css/css_form.asp */
-  background-color: lightblue;
+  background-color: rgb(15, 23, 44);
   border: 3px solid lightblue;
 }
 
 textarea:focus { /* https://www.w3schools.com/css/css_form.asp */
-  background-color: lightblue;
+  background-color: rgb(15, 23, 44);
   border: 3px solid lightblue;
+}
+
+.submitbutton:hover {
+  color: black;
 }
