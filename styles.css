@@ -411,3 +411,50 @@ main {
     display: none;
   }
 }
+
+/* form styling */
+
+.content { /* https://www.w3schools.com/css/css3_border_images.asp */
+  border: px solid transparent;
+  align-items: center;
+  padding: 10px;
+}
+
+.p
+{
+  color: aqua;
+}
+
+
+input {
+  border: none;
+  border: 2px solid rgb(182, 175, 221);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+input:hover {
+  background-color: lightblue;
+  border: 3px solid lightblue;
+}
+
+textarea {
+  border: none;
+  border: 2px solid rgb(182, 175, 221);
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+input:focus { /* https://www.w3schools.com/css/css_form.asp */
+  background-color: lightblue;
+  border: 3px solid lightblue;
+}
+
+textarea:focus { /* https://www.w3schools.com/css/css_form.asp */
+  background-color: lightblue;
+  border: 3px solid lightblue;
+}
